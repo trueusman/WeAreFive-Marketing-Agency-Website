@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XX461RZFH0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XX461RZFH0');
+</script>
+    <title>Digital Solutions & Growth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="shortcut icon" href="wearefive.png" type="image/x-icon">
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-jQnF5zVb2eZL6K9W6EqZsP+1q1Kq1zZBciX+zH0aKz7wVr7lZ9wZ+91jXKaM3P+X+6+3+0vQ/Ox0Hk/2Z0fzHw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  
+<div class="fixed bottom-8 right-8 z-40">
+  <button id="floating-proposal-btn" class="w-14 h-14 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white flex items-center justify-center shadow-2xl hover:shadow-indigo-500/40 transition-all hover:scale-110 group">
+    <i class="fas fa-file-alt text-xl group-hover:rotate-12 transition-transform"></i>
+  </button>
+</div>
+
+  <body class="bg-slate-900 text-gray-200">
+    <header
+      class="w-full bg-slate-900 border-b border-gray-700 h-20 sticky top-0 z-50 flex items-center"
+    >
+      <div class="container mx-auto px-6 flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <span class="text-white text-2xl font-bold"
+            >We<span style="color: rgb(41, 90, 237);">Are</span><span style="color: #7808d0">Five</span></span
+          >
+        </div>
+<!-- In your header navigation -->
+<nav class="hidden lg:flex space-x-6 lg:space-x-10">
+  <a href="#home" class="nav-link">Home</a>
+  <a href="#about" class="nav-link">About</a>
+  <a href="#services" class="nav-link">Services</a>
+  <a href="#portfolio" class="nav-link">Portfolio</a>
+  <a href="#blog" class="nav-link">Blog</a>
+  <!-- Change this from #contact to trigger form -->
+  <a href="#" class="nav-link" id="contact-link">Contact</a>
+</nav>
+
+
+        <div class="hidden lg:block">
+          <a href="#contact">
+            <button class="animated-button">
+              <svg
+                viewBox="0 0 24 24"
+                class="arr-2"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Get a Proposal</span>
+              <span class="circle"></span>
+              <svg
+                viewBox="0 0 24 24"
+                class="arr-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex lg:hidden justify-end px-6">
+        <button id="mobile-menu-btn" class="text-gray-400 focus:outline-none">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16m-7 6h7"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div
+        id="mobile-menu"
+        class="hidden lg:hidden bg-slate-800 py-4 px-6 text-center"
+      >
+        <nav class="flex flex-col space-y-4">
+          <a href="#home" class="nav-link py-2">Home</a>
+          <a href="#about" class="nav-link py-2">About</a>
+          <a href="#services" class="nav-link py-2">Services</a>
+          <a href="#portfolio" class="nav-link py-2">Portfolio</a>
+          <a href="#blog" class="nav-link py-2">Blog</a>
+          <a href="#contact" class="nav-link py-2">Contact</a>
+          <a href="#contact">
+            <button class="animated-button w-full">
+              <svg
+                viewBox="0 0 24 24"
+                class="arr-2"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Get a Proposal</span>
+              <span class="circle"></span>
+              <svg
+                viewBox="0 0 24 24"
+                class="arr-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Updated Hero Section with Full Height Slider -->
+      <section
+        id="home"
+        class="hero-section"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div class="slider">
+          <div class="slides">
+            <img
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Digital Marketing 1"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Digital Marketing 2"
+            />
+            <img
+              src="https://karnavatiuniversity.edu.in/wp-content/uploads/2025/03/AI-Powered-Tools-Revolutionizing-Digital-Marketing-in-2025-scaled.webp"
+              alt="Digital Marketing 3"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Digital Marketing 4"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2615&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Digital Marketing 5"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Digital Marketing 6"
+            />
+          </div>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+
+          <!-- Dark Overlay for Text Readability -->
+          <div class="absolute inset-0 bg-slate-900/70 z-10"></div>
+
+          <!-- Hero Content -->
+          <div class="absolute inset-0 z-20 flex items-center justify-center">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+              <h1
+                class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                Elevate Your Brand. <br class="hidden md:inline" />
+                Achieve Digital Dominance.
+              </h1>
+              <p
+                class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                WeAreFive, a strategic partner in digital marketing. We craft
+                data-driven solutions to accelerate your business and build
+                lasting connections with your audience.
+              </p>
+              <a href="#services">
+                <button
+                  class="button"
+                  style="--clr: #7808d0"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <span class="button__icon-wrapper">
+                    <svg
+                      viewBox="0 0 14 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="button__icon-svg"
+                      width="10"
+                    >
+                      <path
+                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    <svg
+                      viewBox="0 0 14 15"
+                      fill="none"
+                      width="10"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="button__icon-svg button__icon-svg--copy"
+                    >
+                      <path
+                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </span>
+                  Explore Our Services
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rest of your content sections -->
+      <div class="container mx-auto px-6">
+        <section id="about" class="py-20">
+          <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right" data-aos-duration="1000">
+              <h2 class="text-4xl font-bold text-white mb-4">Our Vision</h2>
+              <p class="text-gray-400 leading-relaxed mb-4">
+                At WeAreFive, we don't just execute campaigns; we build futures.
+                Our team of seasoned marketers, analysts, and creative
+                strategists works in lockstep to deliver measurable growth. We
+                are committed to transparency, innovation, and a collaborative
+                partnership with every client.
+              </p>
+              <p class="text-gray-400 leading-relaxed">
+                Our philosophy is simple: understand the customer, analyze the
+                data, and create compelling narratives that resonate. Your
+                success is the ultimate metric of our performance.
+              </p>
+            </div>
+            <div
+              class="flex justify-center hidden md:block"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <dotlottie-wc
+                src="https://lottie.host/7b7b1c86-a0a9-4f8a-a719-d6da22634290/i2Wr74WIVZ.lottie"
+                style="width: 600px; height: 600px"
+                speed="1"
+                autoplay
+                loop
+              ></dotlottie-wc>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="py-20 bg-slate-800 rounded-3xl p-8">
+          <h2
+            class="text-4xl font-bold text-white text-center mb-12"
+            data-aos="fade-up"
+          >
+            Services We Provide
+          </h2>
+
+          <!-- Visual Design Section -->
+          <section class="category-section">
+            <div class="category-header">
+              <h2 class="category-title">Visual Design</h2>
+              <div class="category-count">3 Services</div>
+            </div>
+            <div class="modern-grid">
+              <div class="modern-card">
+                <div class="card-top">
+                  <div class="card-icon"><i class="fas fa-pen-nib"></i></div>
+                  <div class="card-badge">Branding</div>
+                  <div class="card-content">
+                    <h3>Graphic Design</h3>
+                    <p>
+                      Craft compelling visual identities that resonate with your
+                      audience and communicate your brand story effectively.
+                    </p>
+                    <div class="card-features">
+                      <span class="feature-tag">Logo Design</span>
+                      <span class="feature-tag">Brand Guidelines</span>
+                      <span class="feature-tag">Marketing Materials</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+<a href="#" class="modern-button" id="explore-design-btn">
+  Explore Design Solutions <i class="fas fa-arrow-right"></i>
+</a>
+
+                </div>
+              </div>
+
+              <div class="modern-card">
+                <div class="card-top">
+                  <div class="card-icon">
+                    <i class="fas fa-draw-polygon"></i>
+                  </div>
+                  <div class="card-badge">Scalable</div>
+                  <div class="card-content">
+                    <h3>Vector Design</h3>
+                    <p>
+                      Transform any image into infinite-resolution vector art.
+                      Perfect for branding, merchandise, and large-scale
+                      applications.
+                    </p>
+                    <div class="card-features">
+                      <span class="feature-tag">Logo Vectorization</span>
+                      <span class="feature-tag">Illustration</span>
+                      <span class="feature-tag">Icon Sets</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="modern-button"
+                    >Vectorize Your Assets <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="modern-card">
+                <div class="card-top">
+                  <div class="card-icon"><i class="fas fa-image"></i></div>
+                  <div class="card-badge">High CTR</div>
+                  <div class="card-content">
+                    <h3>Thumbnail Design</h3>
+                    <p>
+                      Create click-worthy thumbnails that drive engagement and
+                      boost viewership across YouTube and social platforms.
+                    </p>
+                    <div class="card-features">
+                      <span class="feature-tag">YouTube Thumbnails</span>
+                      <span class="feature-tag">Social Media Covers</span>
+                      <span class="feature-tag">A/B Testing</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="modern-button"
+                    >Boost Your Clicks <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Web & Development Section -->
+          <section class="category-section">
+            <div class="category-header">
+              <h2 class="category-title">Web & Development</h2>
+              <div class="category-count">3 Services</div>
+            </div>
+            <div class="modern-grid">
+              <div class="modern-card featured-card">
+                <div class="card-top">
+                  <div class="card-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                  </div>
+                  <div class="card-badge">Best Seller</div>
+                  <div class="card-content">
+                    <h3>E-Commerce Solutions</h3>
+                    <p>
+                      Build powerful online stores with seamless shopping
+                      experiences, secure payments, and conversion-optimized
+                      layouts.
+                    </p>
+                    <div class="card-features">
+                      <span class="feature-tag">Shopify Development</span>
+                      <span class="feature-tag">WooCommerce</span>
+                      <span class="feature-tag">Payment Integration</span>
+                      <span class="feature-tag">Inventory Systems</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="modern-button"
+                    >Launch Your Store <i class="fas fa-rocket"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="modern-card">
+                <div class="card-top">
+                  <div class="card-icon"><i class="fas fa-store"></i></div>
+                  <div class="card-content">
+                    <h3>Shopify Development</h3>
+                    <p>
+                      Custom Shopify stores with premium themes, app
+                      integrations, and mobile-optimized designs for maximum
+                      sales.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="modern-button"
+                    >Shopify Expertise <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="modern-card">
+                <div class="card-top">
+                  <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+                  <div class="card-content">
+                    <h3>Portfolio Websites</h3>
+                    <p>
+                      Showcase your work with elegant, responsive portfolio
+                      sites that impress clients and highlight your expertise.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="modern-button"
+                    >Showcase Your Work <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Growth & Marketing Section -->
+          <section class="category-section">
+            <div class="category-header">
+              <h2 class="category-title">Growth & Marketing</h2>
+              <div class="category-count">3 Services</div>
+            </div>
+            <div class="modern-grid">
+              <div class="modern-card">
+                <div class="card-top">
+                  <div class="card-icon"><i class="fas fa-hashtag"></i></div>
+                  <div class="card-badge">Engagement</div>
+                  <div class="card-content">
+                    <h3>Social Media Marketing</h3>
+                    <p>
+                      Strategic social media management that builds communities,
+                      drives engagement, and grows your brand presence.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="modern-button"
+                    >Grow Your Following <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="modern-card">
+                <div class="card-top">
+                  <div class="card-icon"><i class="fas fa-ad"></i></div>
+                  <div class="card-badge">ROI Focused</div>
+                  <div class="card-content">
+                    <h3>Paid Social Ads</h3>
+                    <p>
+                      Data-driven ad campaigns across Facebook, Instagram,
+                      LinkedIn, and TikTok that deliver measurable results.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="modern-button"
+                    >Maximize Your ROI <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="modern-card">
+                <div class="card-top">
+                  <div class="card-icon"><i class="fas fa-video"></i></div>
+                  <div class="card-content">
+                    <h3>Video Editing</h3>
+                    <p>
+                      Professional video editing for social content, YouTube
+                      channels, and marketing campaigns that captivate
+                      audiences.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="https://www.facebook.com/reel/441573318597214" class="modern-button"
+                    >Edit Your Content <i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section id="features" class="py-20 bg-slate-800 rounded-3xl p-8 mt-12">
+          <h2
+            class="text-4xl font-bold text-white text-center mb-12"
+            data-aos="fade-up"
+          >
+            Our Core Features
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div
+              class="bg-slate-700 rounded-2xl shadow-lg p-6 card-hover-effect"
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
+              <div class="text-indigo-400 text-3xl mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-12 w-12"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-white mb-2">
+                Automated Reporting
+              </h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Receive real-time, automated reports directly to your inbox,
+                giving you instant insights into performance.
+              </p>
+            </div>
+
+            <div
+              class="bg-slate-700 rounded-2xl shadow-lg p-6 card-hover-effect"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="text-indigo-400 text-3xl mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-12 w-12"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-white mb-2">
+                Dedicated Account Manager
+              </h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Work directly with a single point of contact who understands
+                your business goals inside and out.
+              </p>
+            </div>
+
+            <div
+              class="bg-slate-700 rounded-2xl shadow-lg p-6 card-hover-effect"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="text-indigo-400 text-3xl mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-12 w-12"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-1.343 3-3s-1.343-3-3-3m0 6a3 3 0 003-3c0-1.657-1.343-3-3-3m-4 3a4 4 0 118 0 4 4 0 01-8 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-white mb-2">
+                Advanced Data Security
+              </h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Your data is our top priority. We use industry-leading
+                encryption to ensure your information is always safe.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+          <h2
+  class="text-4xl font-bold text-white text-center mt-10 mb-8"
+  data-aos="fade-up"
+>
+  Portfolio
+</h2>
+<div id="Embroidery Digitizing">
+  <!-- portfolio content -->
+</div>
+
+        <section id="portfolio" class="portfolio">
+          <!-- Filters -->
+          <div class="filters">
+            <button class="active" data-filter="all">All</button>
+            <button data-filter="web">Web</button>
+            <button data-filter="ui">UI</button>
+            <button data-filter="app" id="Design Hub">Design Hub</button>
+          </div>
+
+          <!-- Grid -->
+          <div class="portfolio-grid">
+            <div class="portfolio-card web">
+              <img src="e-comers-website.png" />
+              <div class="portfolio-overlay">
+                <h3>
+                  Static product showcase <br />
+                  website
+                </h3>
+                <a
+                  href="https://homemadesweets.netlify.app/"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-card web">
+              <img src="tawakkal.png" />
+              <div class="portfolio-overlay">
+                <h3>
+                  Tawakkal Fodders Store 
+                </h3>
+                <a
+                  href="https://tawakkalfodders.netlify.app/"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            
+            <div class="portfolio-card web">
+              <img src="airbnb.png" />
+              <div class="portfolio-overlay">
+                <h3>
+                  Airbnb clone 
+                </h3>
+                <a
+                  href="https://clones-website.netlify.app/#"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            
+            <div class="portfolio-card web">
+              <img src="mrketingagency.png" />
+              <div class="portfolio-overlay">
+                <h3>
+                  Marketing Agency 
+                </h3>
+                <a
+                  href="https://smmarketinganddesigning.netlify.app/"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            
+            
+            <div class="portfolio-card web">
+              <img src="waterstore.png" />
+              <div class="portfolio-overlay">
+                <h3>
+                  PETBOT BOTTLES 
+                </h3>
+                <a
+                  href="https://petbot-manificutre.netlify.app/"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            
+            
+            <div class="portfolio-card web">
+              <img src="clothingstore.png" />
+              <div class="portfolio-overlay">
+                <h3>
+                  The Fasion Spectrum 
+                </h3>
+                <a
+                  href="https://tfs-cloth.netlify.app/assests/pages/home"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="portfolio-card ui">
+              <img src="modern-signin-form.png" />
+              <div class="portfolio-overlay">
+                <h3>Modern-Signin-Form</h3>
+                <a
+                  href="https://modern-signin-form.netlify.app/#"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-card ui">
+              <img src="custom-cursor-animation.png" />
+              <div class="portfolio-overlay">
+                <h3>Modern-Cursor-Animation</h3>
+                <a
+                  href="https://fabulous-treacle-3d9d2a.netlify.app/"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-card web">
+              <img src="client-portfolio-1.png" />
+              <div class="portfolio-overlay">
+                <h3>Modern-Portfolio</h3>
+                <a
+                  href="https://usmanportfolio-2.netlify.app/"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-card web">
+              <img src="client-portfolio-2.png" />
+              <div class="portfolio-overlay">
+                <h3>Modern-Portfolio</h3>
+                <a
+                  href="https://usmanportfolio-1.netlify.app/"
+                  target="_blank"
+                  class="live"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+
+            
+            <div class="portfolio-card app">
+              <img src="vector.jpeg" />
+              <div class="portfolio-overlay">
+                <h3>Vector Designing</h3>
+               
+              </div>
+            </div>
+
+
+
+
+            
+            <div class="portfolio-card app">
+              <img src="vector-1.jpeg" />
+              <div class="portfolio-overlay">
+                <h3>Vector Designing</h3>
+               
+              </div>
+            </div>
+
+
+
+
+            
+            
+            <div class="portfolio-card app">
+              <img src="vect-2.jpeg" />
+              <div class="portfolio-overlay">
+                <h3>Vector Designing</h3>
+               
+              </div>
+            </div>
+
+
+
+
+
+            
+            <div class="portfolio-card app">
+              <img src="Digitizing.jpeg" />
+              <div class="portfolio-overlay">
+                <h3>Embroidery Digitizing</h3>
+               
+              </div>
+            </div>
+
+
+            
+            
+            <div class="portfolio-card app">
+              <img src="Digitizing-1.jpeg" />
+              <div class="portfolio-overlay">
+                <h3>Embroidery Digitizing</h3>
+               
+              </div>
+            </div>
+
+
+
+            
+            
+            
+            <div class="portfolio-card app">
+              <img src="dgi-3.JPG" />
+              <div class="portfolio-overlay">
+                <h3>Embroidery Digitizing</h3>
+               
+              </div>
+            </div>
+
+            
+            
+            
+            <div class="portfolio-card app">
+              <img src="dgi-4.JPG" />
+              <div class="portfolio-overlay">
+                <h3>Embroidery Digitizing</h3>
+               
+              </div>
+            </div>
+
+
+            
+            
+            
+            <div class="portfolio-card app">
+              <img src="dgi-5.JPG" />
+              <div class="portfolio-overlay">
+                <h3>Embroidery Digitizing</h3>
+               
+              </div>
+            </div>
+
+
+
+
+
+
+            
+            <div class="portfolio-card app">
+              <img src="digi-2.jpeg" />
+              <div class="portfolio-overlay">
+                <h3>Embroidery Digitizing</h3>
+               
+              </div>
+            </div>
+
+
+
+
+            
+
+
+
+
+
+          </div>
+        </section>
+
+        <section id="google-reviews" class="py-20 bg-slate-900">
+          <div class="container mx-auto px-6">
+            <div class="text-center mb-8">
+              <div
+                class="flex items-center justify-center space-x-2 text-white mb-2"
+              >
+                <span class="text-xl font-bold">Google Reviews</span>
+              </div>
+              <p class="text-gray-400">
+                Trusted by clients worldwide. See what they're saying.
+              </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div
+                class="bg-slate-800 rounded-2xl shadow-lg p-6 flex flex-col card-hover-effect"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="flex items-center space-x-4 mb-4">
+                  <img
+                    src="https://placehold.co/50x50/334155/6366f1?text=A"
+                    alt="Client Avatar 1"
+                    class="rounded-full w-12 h-12 object-cover"
+                  />
+                  <div class="flex-grow">
+                    <h4 class="font-semibold text-white">Alex Rodriguez</h4>
+                    <div class="text-yellow-400 flex space-x-1">
+                      <span>⭐</span><span>⭐</span><span>⭐</span
+                      ><span>⭐</span><span>⭐</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-gray-300 leading-relaxed italic">
+                  "GrowthSphere's team delivered outstanding results for our
+                  startup. Their SEO and content strategy brought us to the
+                  first page of Google in just 3 months. Exceptional work!"
+                </p>
+              </div>
+
+              <div
+                class="bg-slate-800 rounded-2xl shadow-lg p-6 flex flex-col card-hover-effect"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div class="flex items-center space-x-4 mb-4">
+                  <img
+                    src="https://placehold.co/50x50/334155/10b981?text=M"
+                    alt="Client Avatar 2"
+                    class="rounded-full w-12 h-12 object-cover"
+                  />
+                  <div class="flex-grow">
+                    <h4 class="font-semibold text-white">Maria Sanchez</h4>
+                    <div class="text-yellow-400 flex space-x-1">
+                      <span>⭐</span><span>⭐</span><span>⭐</span
+                      ><span>⭐</span><span>⭐</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-gray-300 leading-relaxed italic">
+                  "We were looking for a marketing partner who truly understood
+                  our goals. GrowthSphere exceeded our expectations with their
+                  data-driven approach. Our social media engagement has
+                  doubled!"
+                </p>
+              </div>
+
+              <div
+                class="bg-slate-800 rounded-2xl shadow-lg p-6 flex flex-col card-hover-effect"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              >
+                <div class="flex items-center space-x-4 mb-4">
+                  <img
+                    src="https://placehold.co/50x50/334155/f59e0b?text=D"
+                    alt="Client Avatar 3"
+                    class="rounded-full w-12 h-12 object-cover"
+                  />
+                  <div class="flex-grow">
+                    <h4 class="font-semibold text-white">David Miller</h4>
+                    <div class="text-yellow-400 flex space-x-1">
+                      <span>⭐</span><span>⭐</span><span>⭐</span
+                      ><span>⭐</span><span>⭐</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-gray-300 leading-relaxed italic">
+                  "From the initial consultation to the final report, their
+                  professionalism was unmatched. The PPC campaigns they managed
+                  for us delivered a remarkable ROI. We're very impressed."
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="blog" class="py-20 bg-slate-800 rounded-3xl p-8">
+          <h2
+            class="text-4xl font-bold text-white text-center mb-12"
+            data-aos="fade-up"
+          >
+            Insights & Articles
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div
+              class="bg-slate-700 rounded-2xl shadow-lg p-6 card-hover-effect"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3 class="text-xl font-semibold text-white mb-2">
+                The 2024 SEO Blueprint for Startups
+              </h3>
+              <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                Uncover the essential strategies to build a strong organic
+                presence from day one.
+              </p>
+              <a
+                href="#"
+                class="text-indigo-400 hover:text-indigo-300 font-medium transition-colors flex items-center space-x-2"
+              >
+                <span>Read Article</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div
+              class="bg-slate-700 rounded-2xl shadow-lg p-6 card-hover-effect"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <h3 class="text-xl font-semibold text-white mb-2">
+                Mastering the Art of Digital Storytelling
+              </h3>
+              <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                Learn how to craft narratives that capture attention and convert
+                audiences into loyal customers.
+              </p>
+              <a
+                href="#"
+                class="text-indigo-400 hover:text-indigo-300 font-medium transition-colors flex items-center space-x-2"
+              >
+                <span>Read Article</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div
+              class="bg-slate-700 rounded-2xl shadow-lg p-6 card-hover-effect"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <h3 class="text-xl font-semibold text-white mb-2">
+                How Data Analytics Powers Modern Marketing
+              </h3>
+              <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                A guide to leveraging data to optimize campaigns and make
+                smarter business decisions.
+              </p>
+              <a
+                href="#"
+                class="text-indigo-400 hover:text-indigo-300 font-medium transition-colors flex items-center space-x-2"
+              >
+                <span>Read Article</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+<!-- Remove this entire section -->
+<section id="contact" class="bg-slate-900 text-white py-20 border-t border-slate-700" data-aos="fade-up">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold mb-4">Ready for Strategic Growth?</h2>
+    <p class="max-w-xl mx-auto mb-8 text-gray-400">
+      Contact us today to schedule a consultation and receive a customized
+      proposal for your business.
+    </p>
+    <a
+      href="mailto:wearefivemarketing.com"
+      class="bg-indigo-500 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-xl hover:bg-indigo-600 transition-all transform hover:scale-105"
+    >
+      Contact Us
+    </a>
+  </div>
+</section>
+
+<!-- Also remove the old form section if you have it -->
+<section id="contect" class="contact-section">
+  <!-- ... old form ... -->
+</section>
+<!-- Full Page Proposal Form (Initially Hidden) -->
+<div id="fullpage-proposal" class="fixed inset-0 bg-slate-900 z-[9999] hidden overflow-y-auto">
+  <div class="min-h-screen w-full relative">
+    <!-- Back Button -->
+    <button id="close-proposal" class="fixed top-8 left-8 z-50 text-white hover:text-indigo-300 transition-colors group">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-slate-800/50 backdrop-blur-sm border border-slate-700 flex items-center justify-center group-hover:border-indigo-500 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+          </svg>
+        </div>
+        <span class="font-medium">Back to Site</span>
+      </div>
+    </button>
+
+    <!-- Form Content -->
+    <div class="max-w-4xl mx-auto px-6 py-20">
+      <!-- Header -->
+      <div class="text-center mb-16" data-aos="fade-up">
+        <div class="inline-flex items-center gap-3 mb-6">
+          <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+            <span class="text-white text-2xl font-bold">W</span>
+          </div>
+          <div>
+            <h1 class="text-4xl font-bold text-white">We<span class="text-indigo-400">Are</span><span class="text-purple-500">Five</span></h1>
+            <p class="text-slate-400">Digital Solutions & Growth</p>
+          </div>
+        </div>
+        
+        <h2 class="text-5xl md:text-6xl font-bold text-white mb-6">
+          Get Your <span class="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">Custom Proposal</span>
+        </h2>
+        <p class="text-xl text-slate-300 max-w-2xl mx-auto">
+          Tell us about your project. We'll analyze your needs and send a detailed proposal within 24 hours.
+        </p>
+      </div>
+
+      <!-- Progress Steps -->
+      <div class="mb-12" data-aos="fade-up" data-aos-delay="100">
+        <div class="flex items-center justify-between max-w-2xl mx-auto">
+          <div class="flex flex-col items-center">
+            <div class="w-12 h-12 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold mb-2">
+              1
+            </div>
+            <span class="text-sm text-slate-300">Project Details</span>
+          </div>
+          <div class="h-1 w-24 bg-slate-700"></div>
+          <div class="flex flex-col items-center">
+            <div class="w-12 h-12 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 font-bold mb-2">
+              2
+            </div>
+            <span class="text-sm text-slate-500">Your Info</span>
+          </div>
+          <div class="h-1 w-24 bg-slate-700"></div>
+          <div class="flex flex-col items-center">
+            <div class="w-12 h-12 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 font-bold mb-2">
+              3
+            </div>
+            <span class="text-sm text-slate-500">Submit</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-3xl p-8 md:p-12" data-aos="fade-up" data-aos-delay="200">
+        <form id="proposal-form" class="space-y-8">
+          <!-- Project Details Section -->
+          <div>
+            <h3 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-indigo-500/20 flex items-center justify-center">
+                <i class="fas fa-lightbulb text-indigo-400"></i>
+              </span>
+              Tell us about your project
+            </h3>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="input-group">
+                <label class="block text-slate-300 mb-2 font-medium">Project Name *</label>
+                <input type="text" required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors" placeholder="e.g., E-commerce Website Redesign">
+              </div>
+              
+              <div class="input-group">
+                <label class="block text-slate-300 mb-2 font-medium">Project Type *</label>
+                <select required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors appearance-none">
+                  <option value="">Select project type</option>
+                  <option>Website Development</option>
+                  <option>E-commerce Store</option>
+                  <option>Mobile App</option>
+                  <option>Brand Identity</option>
+                  <option>Digital Marketing</option>
+                  <option>Social Media Management</option>
+                  <option>Content Creation</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              
+              <div class="input-group md:col-span-2">
+                <label class="block text-slate-300 mb-2 font-medium">Services Needed *</label>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  <label class="flex items-center gap-2 p-3 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer hover:border-indigo-500 transition-colors">
+                    <input type="checkbox" class="rounded text-indigo-500">
+                    <span class="text-slate-300">Web Design</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-3 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer hover:border-indigo-500 transition-colors">
+                    <input type="checkbox" class="rounded text-indigo-500">
+                    <span class="text-slate-300">Development</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-3 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer hover:border-indigo-500 transition-colors">
+                    <input type="checkbox" class="rounded text-indigo-500">
+                    <span class="text-slate-300">Graphic Design</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-3 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer hover:border-indigo-500 transition-colors">
+                    <input type="checkbox" class="rounded text-indigo-500">
+                    <span class="text-slate-300">SEO</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-3 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer hover:border-indigo-500 transition-colors">
+                    <input type="checkbox" class="rounded text-indigo-500">
+                    <span class="text-slate-300">Social Media</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-3 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer hover:border-indigo-500 transition-colors">
+                    <input type="checkbox" class="rounded text-indigo-500">
+                    <span class="text-slate-300">Content</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-3 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer hover:border-indigo-500 transition-colors">
+                    <input type="checkbox" class="rounded text-indigo-500">
+                    <span class="text-slate-300">Video Editing</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-3 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer hover:border-indigo-500 transition-colors">
+                    <input type="checkbox" class="rounded text-indigo-500">
+                    <span class="text-slate-300">Other</span>
+                  </label>
+                </div>
+              </div>
+              
+              <div class="input-group md:col-span-2">
+                <label class="block text-slate-300 mb-2 font-medium">Project Description *</label>
+                <textarea required rows="4" class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors resize-none" placeholder="Describe your project goals, target audience, and any specific requirements..."></textarea>
+              </div>
+              
+              <div class="input-group">
+                <label class="block text-slate-300 mb-2 font-medium">Timeline *</label>
+                <select required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors">
+                  <option value="">Select timeline</option>
+                  <option>Urgent (1-2 weeks)</option>
+                  <option>Standard (3-4 weeks)</option>
+                  <option>Flexible (1-2 months)</option>
+                  <option>Long-term (3+ months)</option>
+                </select>
+              </div>
+              
+              <div class="input-group">
+                <label class="block text-slate-300 mb-2 font-medium">Budget Range *</label>
+                <select required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors">
+                  <option value="">Select budget</option>
+                  <option>$500 - $1,000</option>
+                  <option>$1,000 - $2,500</option>
+                  <option>$2,500 - $5,000</option>
+                  <option>$5,000 - $10,000</option>
+                  <option>$10,000+</option>
+                  <option>To be discussed</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Info Section -->
+          <div class="pt-8 border-t border-slate-700">
+            <h3 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-purple-500/20 flex items-center justify-center">
+                <i class="fas fa-user text-purple-400"></i>
+              </span>
+              Your contact information
+            </h3>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="input-group">
+                <label class="block text-slate-300 mb-2 font-medium">Full Name *</label>
+                <input type="text" required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors" placeholder="John Smith">
+              </div>
+              
+              <div class="input-group">
+                <label class="block text-slate-300 mb-2 font-medium">Email Address *</label>
+                <input type="email" required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors" placeholder="john@example.com">
+              </div>
+              
+              <div class="input-group">
+                <label class="block text-slate-300 mb-2 font-medium">Phone Number *</label>
+                <input type="tel" required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors" placeholder="+1 (123) 456-7890">
+              </div>
+              
+              <div class="input-group">
+                <label class="block text-slate-300 mb-2 font-medium">Company / Organization</label>
+                <input type="text" class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors" placeholder="Optional">
+              </div>
+              
+              <div class="input-group md:col-span-2">
+                <label class="block text-slate-300 mb-2 font-medium">How did you hear about us?</label>
+                <select class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 transition-colors">
+                  <option value="">Select an option</option>
+                  <option>Google Search</option>
+                  <option>Social Media</option>
+                  <option>Referral</option>
+                  <option>Portfolio</option>
+                  <option>Advertisement</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Submit Section -->
+          <div class="pt-8 border-t border-slate-700">
+            <div class="flex items-start gap-4 p-6 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-2xl border border-indigo-500/20">
+              <div class="w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-clock text-indigo-400 text-xl"></i>
+              </div>
+              <div>
+                <h4 class="text-xl font-bold text-white mb-2">What happens next?</h4>
+                <ul class="text-slate-300 space-y-2">
+                  <li class="flex items-center gap-2"><i class="fas fa-check text-green-400"></i> We'll review your project details within 24 hours</li>
+                  <li class="flex items-center gap-2"><i class="fas fa-check text-green-400"></i> Schedule a free consultation call</li>
+                  <li class="flex items-center gap-2"><i class="fas fa-check text-green-400"></i> Receive a detailed proposal with timeline & pricing</li>
+                  <li class="flex items-center gap-2"><i class="fas fa-check text-green-400"></i> No obligation, no spam, 100% confidential</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="mt-8 flex flex-col md:flex-row items-center justify-between gap-6">
+              <div class="text-slate-400 text-sm">
+                <i class="fas fa-lock mr-2"></i> Your information is secure and will never be shared
+              </div>
+              
+              <button type="submit" class="px-12 py-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-indigo-500/30 transition-all transform hover:scale-[1.02] flex items-center gap-3 group">
+                <span>Submit Proposal Request</span>
+                <i class="fas fa-paper-plane group-hover:translate-x-1 transition-transform"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="site-footer">
+      <div class="footer-grid-container">
+        <div class="footer-column footer-brand">
+          <h3>WeAreFive</h3>
+          <p>Stay connected with us for the latest updates.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email..." required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-column footer-links-and-social">
+          <div class="footer-links">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h4>Follow Us</h4>
+            <ul class="social-icons-list">
+              <li class="icon-content">
+                <a
+                  href="https://www.linkedin.com/in/we-are-five-2165b73a3/"
+                  aria-label="LinkedIn"
+                  data-social="linkedin"
+                  target="_blank"
+                >
+                  <div class="filled"></div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-linkedin"
+                    viewBox="0 0 16 16"
+                    xml:space="preserve"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </a>
+                <div class="tooltip">LinkedIn</div>
+              </li>
+              <li class="icon-content">
+                <a
+                  href="https://www.github.com/"
+                  aria-label="GitHub"
+                  data-social="github"
+                  target="_blank"
+                >
+                  <div class="filled"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path
+                      d="M544.5 273.9C500.5 274 457.5 260.3 421.7 234.7L421.7 413.4C421.7 446.5 411.6 478.8 392.7 506C373.8 533.2 347.1 554 316.1 565.6C285.1 577.2 251.3 579.1 219.2 570.9C187.1 562.7 158.3 545 136.5 520.1C114.7 495.2 101.2 464.1 97.5 431.2C93.8 398.3 100.4 365.1 116.1 336C131.8 306.9 156.1 283.3 185.7 268.3C215.3 253.3 248.6 247.8 281.4 252.3L281.4 342.2C266.4 337.5 250.3 337.6 235.4 342.6C220.5 347.6 207.5 357.2 198.4 369.9C189.3 382.6 184.4 398 184.5 413.8C184.6 429.6 189.7 444.8 199 457.5C208.3 470.2 221.4 479.6 236.4 484.4C251.4 489.2 267.5 489.2 282.4 484.3C297.3 479.4 310.4 469.9 319.6 457.2C328.8 444.5 333.8 429.1 333.8 413.4L333.8 64L421.8 64C421.7 71.4 422.4 78.9 423.7 86.2C426.8 102.5 433.1 118.1 442.4 131.9C451.7 145.7 463.7 157.5 477.6 166.5C497.5 179.6 520.8 186.6 544.6 186.6L544.6 274z"
+                    />
+                  </svg>
+                </a>
+                <div class="tooltip">Tiktok</div>
+              </li>
+              <li class="icon-content">
+                <a
+                  href="https://www.instagram.com/wearefivemarketing/"
+                  aria-label="Instagram"
+                  data-social="instagram"
+                  target="_blank"
+                >
+                  <div class="filled"></div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                    xml:space="preserve"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                    ></path>
+                  </svg>
+                </a>
+                <div class="tooltip">Instagram</div>
+              </li>
+              <li class="icon-content">
+                <a
+                  href="https://www.facebook.com/profile.php?viewas=&id=61585381755370&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"
+                  aria-label="Youtube"
+                  data-social="youtube"
+                  target="_blank"
+                >
+                  <div class="filled"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path
+                      d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z"
+                    />
+                  </svg>
+                </a>
+                <div class="tooltip">Facebook</div>
+              </li>
+              <li class="icon-content">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61583440034929"
+                  aria-label="Google"
+                  data-social="google"
+                  target="_blank"
+                >
+                  <div class="filled"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path
+                      d="M564 325.8C564 467.3 467.1 568 324 568C186.8 568 76 457.2 76 320C76 182.8 186.8 72 324 72C390.8 72 447 96.5 490.3 136.9L422.8 201.8C334.5 116.6 170.3 180.6 170.3 320C170.3 406.5 239.4 476.6 324 476.6C422.2 476.6 459 406.2 464.8 369.7L324 369.7L324 284.4L560.1 284.4C562.4 297.1 564 309.3 564 325.8z"
+                    />
+                  </svg>
+                </a>
+                <div class="tooltip">Google</div>
+              </li>
+        
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2025 WeAreFive.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js"
+      type="module"
+    ></script>
+    <a
+      href="https://wa.me/923311173333?text=Hello%20WeAreFive,%20I%20would%20like%20to%20learn%20more%20about%20your%20services."
+      class="lottie-btn-container"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <dotlottie-wc
+        src="https://lottie.host/81d974f3-f356-414c-b2b8-31df08310720/OW42ZSm9D0.lottie"
+        speed="1"
+        autoplay
+        loop
+      ></dotlottie-wc>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Loading Screen -->
+    <div
+      id="loading-screen"
+      class="fixed inset-0 bg-slate-900 flex items-center justify-center z-50 transition-opacity duration-500"
+    >
+      <div class="text-center">
+        <img
+          src="Untitled_design__1_-removebg-preview.png"
+          alt="WeAre Five Logo"
+          class="w-48 md:w-64 mx-auto mb-6 animate-pulse"
+        />
+        <div class="w-32 h-2 bg-gray-600 mx-auto rounded-full overflow-hidden">
+          <div class="h-full bg-purple-600 rounded-full loading-bar"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
